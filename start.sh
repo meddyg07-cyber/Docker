@@ -1,6 +1,10 @@
+
+#Ce script lance et configure l’environnement au démarrage 
+#du conteneur
+
 #!/bin/bash
 
-# Start MySQL
+# Start SQL
 service mysql start
 
 # Création base + user
@@ -22,7 +26,7 @@ fi
 # Start PHP-FPM
 service php7.3-fpm start
 
-# Start Nginx
+# Start Ngin
 service nginx start
 
 # Keep container alive

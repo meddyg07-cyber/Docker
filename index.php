@@ -1,15 +1,15 @@
+<?php
+// Fichier
+?>
 <!DOCTYPE html>
 <html>
 <head>
     <title>Docker Exam</title>
     <link rel="stylesheet" href="/style.css">
-
-
 </head>
 <body>
     <h1>Bienvenue</h1>
     <ul>
-        
         <li><a href="/wordpress/" target="_blank">WordPress</a></li>
         <li><a href="/phpmyadmin/" target="_blank">phpMyAdmin</a></li>
     </ul>

@@ -1,3 +1,8 @@
+######################################
+#créer un environnement complet “LAMP-like” 
+#(serveur web + PHP + base de données) avec WordPress et phpMyAdmin.
+######################################
+
 FROM debian:buster
 
 # Update + install
@@ -17,8 +22,8 @@ RUN wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.zi
     unzip /tmp/phpMyAdmin-latest-all-languages.zip -d /var/www/html/ && \
     mv /var/www/html/phpMyAdmin-*-all-languages /var/www/html/phpmyadmin
 
-# Copy index menu
-COPY index.html /var/www/html/index.html
+# Copy index menu (version PHP)
+COPY index.php /var/www/html/index.php
 COPY style.css /var/www/html/style.css
 
 # Copy nginx config
