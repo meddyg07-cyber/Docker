@@ -1,0 +1,14 @@
+Wordpress---------------
+
+titre du site : Docker Exam
+
+id : Admin
+
+mdp : q7MavqQDC_hrdjd
+
+@ : meddygarcia@hotmail.fr
+
+phpmyadmin-----------------
+
+ID : user
+Mdp : userpass
